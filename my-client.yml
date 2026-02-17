@@ -1,0 +1,5 @@
+# Config for application named "my-client"
+message: Hello from my-client
+app:
+  name: my-client
+  description: Sample config client
