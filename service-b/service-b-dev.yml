@@ -1,0 +1,7 @@
+# Dev profile for service-b
+message: Hello from service-b (dev)
+env: dev
+service-b:
+  description: Service B - development
+  cache-size: 100
+  api-url: http://localhost:8081/service-b

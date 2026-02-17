@@ -1,0 +1,9 @@
+# Config for service-a
+message: Hello from service-a
+service-a:
+  name: service-a
+  description: Service A settings
+  timeout: 5000
+  max-retries: 3
+  feature-enabled: true
+  endpoint: https://api.example.com/service-a

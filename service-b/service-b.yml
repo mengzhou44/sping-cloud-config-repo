@@ -1,0 +1,9 @@
+# Config for service-b
+message: Hello from service-b
+service-b:
+  name: service-b
+  description: Service B settings
+  cache-size: 1000
+  batch-size: 50
+  feature-enabled: true
+  api-url: https://api.example.com/service-b

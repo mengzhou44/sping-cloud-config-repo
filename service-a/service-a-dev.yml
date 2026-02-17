@@ -1,0 +1,7 @@
+# Dev profile for service-a
+message: Hello from service-a (dev)
+env: dev
+service-a:
+  description: Service A - development
+  timeout: 2000
+  endpoint: http://localhost:8080/service-a
